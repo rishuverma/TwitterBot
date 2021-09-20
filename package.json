@@ -1,0 +1,29 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "This is a twitter bot which finds tweet with hashtag #codefor30days and retweets them using Twitter APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "NODE_ENV=development nodemon index.js",
+    "start:prod": "NODE_ENV=production node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishuverma/TwitterBot.git"
+  },
+  "author": "rishuverma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishuverma/TwitterBot/issues"
+  },
+  "homepage": "https://github.com/rishuverma/TwitterBot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
