@@ -1,0 +1,15 @@
+DEV_PORT=3000
+DEV_TWITTER_CONSUMER_KEY={your config value}
+DEV_TWITTER_CONSUMER_SECRET={your config value}
+DEV_BEARER_TOKEN={your config value}
+DEV_TWITTER_TOKEN_KEY={your config value}
+DEV_TWITTER_TOKEN_SECRET={your config value}
+
+
+
+PROD_PORT=4000
+PROD_TWITTER_CONSUMER_KEY={your config value}
+PROD_TWITTER_CONSUMER_SECRET={your config value}
+PROD_BEARER_TOKEN={your config value}
+PROD_TWITTER_TOKEN_KEY={your config value}
+PROD_TWITTER_TOKEN_SECRET={your config value}
