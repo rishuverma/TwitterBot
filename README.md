@@ -11,7 +11,7 @@ Have a Twitter account(avoid using your main account), setup developer twitter p
 - Clone the repository
 - Use code `npm install` to install all the required packages.
 - Maintain a **.env** file copy the format from **envFormat** file present in the repo and enter the Twitter API details that are obtained after the prerequisite step.
-- Use `npm run start:dev` to start the development server. The server starts at port 3000, if you want to chage it make the changes in _.env_ file.
+- Use `npm run start:dev` to start the development server.
 
 ## Hosting
 
