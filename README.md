@@ -1,6 +1,10 @@
 # TwitterBot
 
-This is a twitter bot which finds tweet with hashtag **#codefor30days** and retweets them using Twitter APIs.
+This is a twitter bot which finds tweet with hashtag **#codefor30days** and retweets them using Twitter APIs. Bot twitter account - [@codefor30days](https://twitter.com/codefor30days). My twitter account [@\_rishuverma](https://twitter.com/_rishuverma)
+
+## How to get Re-tweet
+
+Just add hashtag **#codefor30days** in your tweet.
 
 ## Pre-requisite
 
@@ -15,7 +19,7 @@ Have a Twitter account(avoid using your main account), setup developer twitter p
 
 ## Hosting
 
-The App is not yet hosted anywhere. Once hosted the information will be updated here.
+The App is hosted on Heroku.
 
 ## Copyrights
 
