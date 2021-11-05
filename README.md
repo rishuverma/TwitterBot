@@ -1,6 +1,7 @@
 # TwitterBot
 
-This is a twitter bot which finds tweet with hashtag **#codefor30days** and retweets them using Twitter APIs. Bot twitter account - [@codefor30days](https://twitter.com/codefor30days). My twitter account [@\_rishuverma](https://twitter.com/_rishuverma)
+This is a twitter bot which finds tweet with hashtag **#codefor30days** and retweets them using Twitter APIs. Bot twitter account - [@codefor30days](https://twitter.com/codefor30days). My twitter account [@\_rishuverma](https://twitter.com/_rishuverma).
+Twitter package is used to configure the app, source code of which can be found [here](https://github.com/desmondmorris/node-twitter).
 
 ## How to get Re-tweet
 
