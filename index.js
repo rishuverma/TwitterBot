@@ -10,7 +10,7 @@ const { processIncomingTweets } = require("./tweetProcessing/processTweets");
 
 const app = express();
 
-setInterval(processIncomingTweets, 5 * 60 * 1000);
+setInterval(processIncomingTweets, 2 * 60 * 1000);
 
 app.get("/", async (req, res) => {
   try {
