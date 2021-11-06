@@ -22,22 +22,18 @@ const { client } = require("../twitterClient");
 //   console.log("hey", tweetObject);
 // };
 
-function getTweets(latestSinceId) {
+function getTweets(query) {
   return new Promise((resolve, reject) => {
-    const query = {
-      q: "#codefor30days",
-      result_type: "recent",
-      since_id: latestSinceId,
-      count: 100,
-    };
-
+    // const query = {
+    //   q: "#codefor30days",
+    //   result_type: "recent",
+    //   since_id: latestSinceId,
+    //   count: 100,
+    // };
     client.get("search/tweets", query, (err, tweets, response) => {
-      // console.log("in the function");
       if (err) {
         return reject(err);
       }
-      // console.log("here are those tweets", response.body);
-
       return resolve(tweets);
     });
   });
