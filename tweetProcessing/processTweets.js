@@ -25,10 +25,11 @@ const processIncomingTweets = async () => {
           if (
             eachTweet.id_str != eachQuery.since_id &&
             !eachTweet.retweeted_status
-          )
+          ) {
             await postRetweets(eachTweet.id_str);
-          console.log("tweeted successfuly", eachTweet.id_str);
-          eachQuery.since_id = eachTweet.id_str;
+            console.log("tweeted successfuly", eachTweet.id_str);
+            eachQuery.since_id = eachTweet.id_str;
+          }
           // console.log("after update query obj", queryObj);
         } catch (err) {
           console.log("unsuccessful reweet", eachTweet.id_str);
