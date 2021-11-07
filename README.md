@@ -1,11 +1,18 @@
 # TwitterBot
 
-This is a twitter bot which finds tweet with hashtag **#codefor30days** and retweets them using Twitter APIs. Bot twitter account - [@codefor30days](https://twitter.com/codefor30days). My twitter account [@\_rishuverma](https://twitter.com/_rishuverma).
+This is a twitter bot which finds tweet with hashtag **#codefor30days** or **#100daysofcode** and retweets them using Twitter APIs. Bot twitter account - [@codefor30days](https://twitter.com/codefor30days). My twitter account [@\_rishuverma](https://twitter.com/_rishuverma).
 Twitter package is used to configure the app, source code of which can be found [here](https://github.com/desmondmorris/node-twitter).
 
 ## How to get Re-tweet
 
-Just add hashtag **#codefor30days** in your tweet.
+Mention your day streak some examples of it:
+
+- **Day 21**
+- **Day - 1/30**
+- **#day5**
+- **D16**
+
+Hashtag your tweet with **#codefor30days** or **#100daysofcode**. Refrain from having too many hashtags and have decent length tweet (check spamFilter file ;) ).
 
 ## Pre-requisite
 
