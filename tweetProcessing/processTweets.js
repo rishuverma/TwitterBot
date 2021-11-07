@@ -17,7 +17,7 @@ const processIncomingTweets = async () => {
           if (
             eachTweet.id_str != eachQuery.since_id &&
             // !eachTweet.retweeted_status
-            spamFilter(eachTweet)
+            (await spamFilter(eachTweet))
           ) {
             await postRetweets(eachTweet.id_str);
             console.log("tweeted successfuly", eachTweet.id_str);
