@@ -12,7 +12,7 @@ const postRetweets = (tweetId) => {
         } else {
           // console.log(response.body);
 
-          console.log("in post retweet", tweetId);
+          // console.log("in post retweet", tweetId);
           return resolve(response.body);
         }
       }
