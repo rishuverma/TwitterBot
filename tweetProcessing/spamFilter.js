@@ -18,16 +18,16 @@ const spamFilter = async (tweet) => {
       tweet.entities.hashtags.length < 6 &&
       /d(?:ays?)?\W*(\d+)/gi.test(tweet.full_text)
     ) {
-      console.log(
-        !tweet.retweeted_status,
-        tweet.full_text.trim().split(" ").length,
-        "  ",
-        tweet.entities.hashtags.length,
-        " ",
-        tweet.entities.hashtags,
-        " ",
-        tweet.full_text
-      );
+      // console.log(
+      //   !tweet.retweeted_status,
+      //   tweet.full_text.trim().split(" ").length,
+      //   "  ",
+      //   tweet.entities.hashtags.length,
+      //   " ",
+      //   tweet.entities.hashtags,
+      //   " ",
+      //   tweet.full_text
+      // );
       return true;
     }
 
